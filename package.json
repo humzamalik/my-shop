@@ -1,15 +1,31 @@
 {
-  "name": "nextjs",
+  "name": "with-chakra-ui",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.x",
-    "react": "17.x",
-    "react-dom": "17.x"
-  }
+    "@chakra-ui/icons": "^1.0.0",
+    "@chakra-ui/react": "^1.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "framer-motion": "3.10.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.10",
+    "next": "latest",
+    "next-auth": "^3.24.1",
+    "next-redux-wrapper": "^7.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0"
+  },
+  "license": "MIT"
 }
